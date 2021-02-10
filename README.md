@@ -59,5 +59,4 @@ InvMixColumns는 Multiply로 상태 배열의 열을 GF(2^8) 상에서 고정된
 
 마지막 10 라운드에서는 InvShiftRows-InvSubBytes-AddRoundKey(첫번
 째 키)를 수행하고 최종 복호화 상태 배열을 decrypted 배열에 저장하여 복호문을 완성시킨다.
-생성된 암호문과 복호문을 각각 이진 파일 cipher.bin과 decrypted.bin에 작성하여 저장하고 프
-로그램이 종료된다.
+생성된 암호문과 복호문을 각각 이진 파일 cipher.bin과 decrypted.bin에 작성하여 저장하고 프로그램이 종료된다.
