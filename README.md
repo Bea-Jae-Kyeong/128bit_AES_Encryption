@@ -3,6 +3,8 @@ An 128bit AES encrypting algorithm in Computer Security
 128 bit의 AES 암호 알고리즘을 구현하는 프로그램을 만들었다. 구현 환경은 Visual Studio 2017,
 구현 언어는 C++이다.
 
+https://github.com/Bea-Jae-Kyeong/128bit_AES_Encryption/issues/1#issue-807692872
+
 우선 평문과 key를 각각 plain.bin과 key.bin 파일에서 읽어들여오고 배열에 저장한다. 먼저
 KeyExpansion 함수를 통해 키를 확장한다. 각 라운드의 키를 추가하기 위한 키 확장 함수로, 먼저
 초기 라운드 키 배열에 키 값을 저장한다. 그리고 Word 단위로 순환 이동을 수행하여 B0, B1, B2,
